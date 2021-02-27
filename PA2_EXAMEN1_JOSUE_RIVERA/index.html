@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Examen 1 Avanzada 2</title>
+</head>
+<body>
+    <div class="cabecera">
+       <h2> EXAMEN 1 - JOSUE DAVID RIVERA ZAMBRANO (201820010307) <img src="img/utila.jpg" width="80" height="60"></h2>
+        </div>
+    <div class="cuerpo">
+        <div class="contenido">
+            <h1>Turismo utila</h1>
+            <p>La más pequeña del Departamento insular de Honduras, Útila es la isla más cercana al territorio continental. La isla está impregnada de una atmósfera de historias de piratería a la par de los encantos naturales y la vida cotidiana de los isleños. Acá existen la mayor cantidad de escuelas de buceo bajo la certificación PADI, y a un bajo costo.
+
+                Nos atrevemos decir que Útila es un santuario para el Tiburón Ballena, el pez más grande del planeta, y que decir de la belleza de los cayos y los bancos de coral que la rodean. Por todo esto, Útila es un paraíso para los amantes del relajamiento.</p>
+        <div class="video">
+            <video src="video/utila.mp4" autoplay controls loop width="400" heigth="315"></video>
+        </div>
+            <p>
+               <h2>taller:</h2> 
+                <p>1. <a target="_blank" href="https://youtu.be/LOcLcy47d0A">UTILA, el buceo más barato del mundo en Honduras</a></p>
+                <p>2. <a target="_blank" href="https://youtu.be/I4TYrlH8EXE">Explorando la isla</a></p>
+                <p>3. <a target="_blank" href="https://youtu.be/gmVNDAw7ce8">Utila, Bay Islands, Honduras</a></p>
+                <p>4. <a target="_blank" href="https://youtu.be/ZA-vbPMozcM">Utila is a place like no other</a></p>
+            </p>
+        </div>
+        <br>
+        <form method="post" action="paginas/pasatiempos.html" name="signup-form">
+            <div class="i">
+            <img src="img/usuario.jpg" width="120" height="100">
+            </div>
+            <div class="form-element">
+                <label>Usuario</label>
+                <input type="text" name="usuario" pattern="[a-zA-Z0-9]+" required />
+            </div>
+            <div class="form-element">
+                <label>Nombre</label>
+                <input type="text" name="nombre" pattern="[a-zA-Z0-9]+" required />
+            </div>
+            <div class="form-element">
+                <label>Apellido</label>
+                <input type="text" name="Apellido" pattern="[a-zA-Z0-9]+" required />
+            </div>
+            <div class="form-element">
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="Fecha" required />
+            </div>
+            <div class="form-element">
+                <label>Pais</label>
+                <select name="Pais" size="3" >
+                    <option>Honduras</option>
+                    <option>El salvador</option>
+                    <option>Guatemala</option>
+                    <option>Costa Rica</option>
+                    <option>Nicaragua</option>
+                  </select>
+            </div>
+            <div class="form-element">
+                <label>Correo</label>
+                <input type="mail" name="correo" required />
+            </div>
+            <div class="form-element">
+                <label>Contraseña </label>
+                <input type="password" name="contraseña" required />
+            </div>
+            <button type="submit" name="register" value="">Crear usuario</button>
+        </form>
+    </div>
+    <div class="pie">
+        <p><a title="UTH instagram" href="https://www.instragram.com/uthedu"><img src="img/instagram.jpg" width="40" height="30"> uth instragram</a></p>
+        <p><a title="UTH facebook" href="https://www.facebook.com/uthedu"><img src="img/fb.jpg" width="30" height="30"> uth facebook</a></p>
+        <p>&COPY;PA 2020 derechos reservados</p>
+    </div>
+
+</body>
+</html>

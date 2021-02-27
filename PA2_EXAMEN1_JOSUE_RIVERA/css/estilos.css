@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: Open Sans;
+    margin: 0px;
+    background-color: rgb(177, 221, 235);
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: -3px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    color: #444;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+
+.cabecera {
+    background-color: #a2c4ce;
+    min-height: 100px;
+    border: 1px solid rgb(243, 242, 242);
+}
+
+.cabecera img{
+    float: right;
+}
+
+
+.cuerpo {
+    max-width: 1500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido {
+    float: left;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    margin: 40px auto;
+    padding: 60px;
+    border: 5px solid rgb(243, 242, 242);
+    width: 500px;
+    background: rgb(55, 207, 76);
+}
+
+.video{
+    text-align: center;
+}
+
+div.contenido img {
+    width: 100%;
+}
+
+label {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.0rem;
+    font-family: 'Lato';
+}
+ 
+input {
+    border: 3px solid rgb(129, 214, 167);
+    font-size: 1.0rem;
+    font-weight: 80px;
+    font-family: 'Lato';
+    padding: 8px;
+}
+ 
+form {
+    margin: 15px auto;
+    padding: 40px;
+    border: 5px solid rgb(243, 242, 242);
+    width: 500px;
+    background: rgb(172, 230, 78);
+    float: right;
+}
+
+.i {
+    text-align: center;
+}
+ 
+div.form-element {
+    margin: 20px 0;
+}
+ 
+button {
+    padding: 10px;
+    font-size: 1.0rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: rgb(134, 132, 241);
+    color: white;
+    border: none;
+}
+
+
+.pie {
+    clear: both;
+    color: white;
+    background-color: #2C3E50;
+    min-height: 80px;
+    padding: 10px;
+    
+}
+
+.pie p a{
+    float: left;
+}
+
+.pie p{
+    text-align: right;
+}
+
+@media (max-width: 640px) {
+    .barra-lateral {
+        display: none;
+    }
+
+    .cuerpo {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenido {
+        float: none;
+        width: 600%;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+}
